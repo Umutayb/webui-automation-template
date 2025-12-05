@@ -16,7 +16,6 @@
         <pickleib.version>2.0.2</pickleib.version>
         <cucumber.version>7.14.0</cucumber.version>
         <selenium.version>4.19.0</selenium.version>
-        <appium.version>9.2.2</appium.version>
     </properties>
 
     <dependencies>
@@ -80,37 +79,11 @@
             <version>${selenium.version}</version>
         </dependency>
 
-        <!-- Appium -->
-        <dependency>
-            <groupId>io.appium</groupId>
-            <artifactId>java-client</artifactId>
-            <version>${appium.version}</version>
-        </dependency>
-
         <!-- Lombok -->
         <dependency>
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>
             <version>1.18.26</version>
-        </dependency>
-
-        <!-- My SQL -->
-        <dependency>
-            <groupId>com.microsoft.sqlserver</groupId>
-            <artifactId>mssql-jdbc</artifactId>
-            <version>11.2.3.jre17</version>
-        </dependency>
-        <dependency>
-            <groupId>mysql</groupId>
-            <artifactId>mysql-connector-java</artifactId>
-            <version>8.0.32</version>
-        </dependency>
-
-        <!-- SQL Query Builder -->
-        <dependency>
-            <groupId>io.github.soldelv</groupId>
-            <artifactId>sql-query-builder</artifactId>
-            <version>0.0.3</version>
         </dependency>
 
         <!-- Gson -->
