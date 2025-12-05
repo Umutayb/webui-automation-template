@@ -23,7 +23,6 @@ import java.util.*;
 
 import static pickleib.driver.DriverFactory.DriverType.*;
 import static pickleib.utilities.platform.PlatformUtilities.isPlatformElement;
-import static steps.Hooks.initialiseAppiumDriver;
 import static utils.StringUtilities.*;
 import static utils.StringUtilities.Color.*;
 import static utils.StringUtilities.markup;
@@ -35,11 +34,8 @@ public class CommonSteps extends PageObjectStepUtilities<ObjectRepository> {
     PlatformInteractions platformInteractions;
 
     public CommonSteps() {
-        super(ObjectRepository.class, initialiseAppiumDriver, Hooks.initialiseBrowser);
-        if (initialiseAppiumDriver)
-            platformInteractions = new PlatformInteractions();
-        if (Hooks.initialiseBrowser)
-            webInteractions = new WebInteractions();
+        super(ObjectRepository.class);
+        webInteractions = new WebInteractions();
     }
 
     @Override
