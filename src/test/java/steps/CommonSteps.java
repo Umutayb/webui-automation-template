@@ -21,7 +21,7 @@ import utils.*;
 import java.util.*;
 
 import static pickleib.driver.DriverFactory.DriverType.*;
-import static pickleib.utilities.platform.PlatformUtilities.isPlatformElement;
+import static pickleib.utilities.DriverInspector.isPlatformElement;
 import static utils.StringUtilities.*;
 import static utils.StringUtilities.Color.*;
 import static utils.StringUtilities.markup;
