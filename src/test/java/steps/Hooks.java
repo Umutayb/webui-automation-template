@@ -6,7 +6,7 @@ import io.cucumber.java.*;
 import io.cucumber.java.en.Given;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.remote.RemoteWebDriver;
-import pickleib.mobile.driver.PickleibAppiumDriver;
+import pickleib.platform.driver.PickleibAppiumDriver;
 import pickleib.utilities.screenshot.ScreenCaptureUtility;
 import pickleib.web.PickleibPageObject;
 import pickleib.web.driver.PickleibWebDriver;

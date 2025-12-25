@@ -2,10 +2,11 @@ package common;
 
 import lombok.Getter;
 import pages.*;
+import pickleib.utilities.interfaces.repository.PageObjectRepository;
 import pickleib.utilities.interfaces.repository.PageRepository;
 
 @SuppressWarnings("unused")
-public class ObjectRepository implements PageRepository {
+public class ObjectRepository implements PageObjectRepository {
 
     @Getter
     public enum Environment {
